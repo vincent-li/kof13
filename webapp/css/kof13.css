@@ -1,0 +1,26 @@
+.page-header{
+    background: url('../images/logo.png');
+}
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+.footer-links {
+    margin: 10px 0;
+}
+.footer-links li{
+    list-style: none;
+}
+
+
+.logo{
+    background: url('../images/logo.png');
+    display: inline-block;
+    height: 250px;
+    width: 950px;
+    display: inline-block;
+    margin-top: 41px;
+}

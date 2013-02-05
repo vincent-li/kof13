@@ -61,7 +61,10 @@ function runCode(filename, context) {
         return require(isRelative ? path.resolve(dirname, apath) : apath);
     };
     context.app = app;
-    context.wapp = wapp;
+    //由于异步特性此处容易出现wapp未定义的情况
+    if(typeof wapp !== 'undefined'){
+        context.wapp = wapp;
+    }
     context.console = console;
     context.setTimeout = setTimeout;
     context.setInterval = setInterval;

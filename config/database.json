@@ -1,8 +1,11 @@
 { 
     "development":{ 
-        "driver":   "memory"
+        "driver":   "mongodb", 
+        "url":      "mongodb://localhost/kof13db",
+        "database": "kof13db"
     }, 
     "test":{ 
-        "driver":   "memory"
+        "driver":   "mongoose", 
+        "url":      "mongodb://localhost/kof13db"
     }
 }

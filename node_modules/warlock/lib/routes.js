@@ -37,7 +37,6 @@ function Map(app, bridge) {
     this.bridge = bridge;
     this.paths = [];
     this.ns = '';
-    // wtf???
     this.globPath = '/';
     this.pathTo = {};
     this.dump = [];

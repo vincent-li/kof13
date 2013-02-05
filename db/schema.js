@@ -1,7 +1,7 @@
 var Player = define('Player', function () {
-	property('name', String);
-    property('email', {index: true});
-    property('password', Date);
+	property('name', String,{index: true});
+    property('email', String,{index: true});
+    property('password', String);
     property('active', Boolean, {default : true});
-    property('createdAt', Date, {default : new Date()});
+    property('createdAt', Date, {default : Date.now});
 });

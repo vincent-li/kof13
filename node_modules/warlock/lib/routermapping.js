@@ -5,7 +5,7 @@
 \***********************************************************************************/
 
 function RouterMapping(root) {
-    this.root = root || app.root;
+    this.root = root;
 };
 
 RouterMapping.config = {
@@ -37,12 +37,7 @@ RouterMapping.prototype.uniCaller = function (ns, controller, action, params) {
         }
 
         var ctl = this.loadController(ns + (controller || req.params.controller));
-        if (app.disabled('model cache')) {
-            // TODO: reloadModels should work without any params
-            // it just should remember all paths
-            // called previously with
-            app.reloadModels(this.root + '/app/models/');
-        }
+        
         ctl.perform(action || req.params.action, req, res, next);
     }.bind(this);
 };

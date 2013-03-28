@@ -1,11 +1,6 @@
 { 
     "development":{ 
-        "driver":   "mongodb", 
-        "url":      "mongodb://localhost/kof13db",
-        "database": "kof13db"
-    }, 
-    "test":{ 
-        "driver":   "mongoose", 
-        "url":      "mongodb://localhost/kof13db"
+        "driver" : "mongodb", 
+        "url"    : "mongodb://kof13:kof132013$@localhost/kof13db"
     }
 }

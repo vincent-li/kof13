@@ -24,3 +24,57 @@
     display: inline-block;
     margin-top: 41px;
 }
+
+.frames{
+
+}
+
+.bubble {
+    padding: 3px;
+    background: #eee;
+    border-radius: 3px;
+    min-height: 715px;
+}
+
+.container{
+    width: 950px;
+}
+
+/*form 相关*/
+.bs-docs {
+    position: relative;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.bs-docs::after{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #9da0a4;
+    -webkit-border-radius: 4px 0 4px 0;
+    -moz-border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 4px 0;
+}
+
+.bs-docs-login::after {
+    content: "Login"; 
+}
+
+.bs-docs-register::after{
+    content: "Register";
+}
+
+/*宽度和长度的简易style*/
+.w950{
+    width: 950px;
+}

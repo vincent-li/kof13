@@ -1,0 +1,38 @@
+<div class="container">
+    <form id="registForm" class="bs-docs bs-docs-register form-horizontal" method="post" action="/player/regist">
+        <div class="control-group">
+            <label class="control-label" for="name">用户名</label>
+            <div class="controls">
+                <input type="text" id="name" name="name" placeholder="player name">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="email">邮箱</label>
+            <div class="controls">
+                <input type="text" id="email" name="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="password">密码</label>
+            <div class="controls">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="repeatPassword">重复密码</label>
+            <div class="controls">
+                <input type="password" id="repeatPassword" placeholder="Repeat Password">
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <button type="button" class="btn" id="signBtn">注册</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    $('#signBtn').on('click', function(){
+        $('#registForm').submit();
+    });
+</script>

@@ -1,9 +1,3 @@
-var bs = {
-    'name' : 'bashao1',
-    'email' : 'vincent1.liwq@gmail.com',
-    'password' : 'aaa111'
-};
-
 before(loadPlayer, {only : ['init']});
 
 function loadPlayer() {
@@ -17,6 +11,7 @@ function loadPlayer() {
         }
     }.bind(this));
 }
+
 // console.log(Player);
 
 action('init', function(){

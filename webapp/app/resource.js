@@ -199,7 +199,6 @@ var fightUI = {
     'bg4' : dirBgImg + "4.png",
     'bg5' : dirBgImg + "5.png",
     'bg6' : dirBgImg + "6.png",
-    'kyo' : dirRoleImg + "01/battle_face_01.dds",
     'b_p' : dirUiImg + "b_p.png"
 }
 

@@ -1,4 +1,3 @@
-
 var menfolks = {
     IsTimeOut : false,
     LeftGuys : [],
@@ -190,7 +189,7 @@ var ShowCaseLayer = cc.Layer.extend({
         // //scrolltext.setAnchorPoint(cc.p(0,0));
         // scrolltext.setContentSize(430);
         // scrolltext.resume();
-        _mandes.addChild(_des, -10, 1);
+        //_mandes.addChild(_des, -10, 1);
 
         var _cname = cc.LabelTTF.create(fightman.name, "Arial bold", 18);
         _cname.setPosition(890,13);
@@ -298,9 +297,6 @@ var SelectRole = cc.Layer.extend({
             this.selectBox = SelectBox.create();
             this.selectBox.setPosition(101,190);
             this.addChild(this.selectBox, 11, 1);
-
-            var pcs = cc.Sprite.create(fightUI['kyo']);
-            this.addChild(pcs,100);
 
             this.setKeyboardEnabled(true);
             bRet = true;

@@ -67,8 +67,8 @@ var cocos2dApp = cc.Application.extend({
     }
 });
 //
-// var myApp = new cocos2dApp(SelectRole.scene);
-var myApp = new cocos2dApp(ManFight.scene);
+var myApp = new cocos2dApp(SelectRole.scene);
+//var myApp = new cocos2dApp(ManFight.scene);
 
 //坐标位置
 /*

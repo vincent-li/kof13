@@ -1,0 +1,95 @@
+
+code { background: none; color: none; border: none; };
+li code { white-space: pre-wrap; margin: 0; padding: 0; border: 0; border-radius: 0; line-height: 18px }
+.covered { background: #cfc; }
+.uncovered { background: #fcc; }
+a, a:visited { color:black; font-size:14pt; }
+pre li .hits {
+  float: right;
+  margin-left: 10px;
+  padding: 2px 4px;
+  background: linear-gradient(#222, #666);
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#222), to(#666));
+  background: -moz-linear-gradient(#222, #666);
+  background: linear-gradient(#222, #666);
+  color: white;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 10px;
+}
+
+code, pre {
+    font-family: Menlo, Consolas, "Courier New", monospace;
+}
+
+pre {
+  border: none;
+  background: none;
+}
+
+.S{color:red}
+.func{color:blue}
+.C{color:orange}
+.kwrd{font-weight:bold}
+.R{color:gray}
+
+.file-contents {
+  display: none;
+}
+
+.active .file-contents {
+  display: block;
+}
+
+.active {
+  position: relative;
+}
+
+.file .row {
+  background: white;
+  padding-top: 10px;
+}
+
+.active .row {
+  position: absolute;
+  top: 0px;
+}
+
+.active.file .row {
+  background: #ececec;
+}
+
+.active.file {
+  border: 1px solid #bbb;
+  background: #ececec;
+}
+
+.file .file-contents {
+  padding-top: 40px;
+}
+
+.group-header {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.group-header .span6 {
+  height: 20px;
+  padding-left: 40px;
+}
+.group-header .group-name {
+  font-size: 26px;
+  line-height: 25px;
+}
+
+ol {
+  margin: 0 0 9px 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+pre {
+}

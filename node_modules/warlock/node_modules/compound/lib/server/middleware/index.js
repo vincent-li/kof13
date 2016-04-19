@@ -1,1 +1,0 @@
-exports.domain = require('./domain');

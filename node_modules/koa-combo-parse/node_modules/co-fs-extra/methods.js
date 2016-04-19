@@ -1,0 +1,45 @@
+/**
+ * Methods to wrap.
+ */
+
+module.exports = [
+  'rename',
+  'ftruncate',
+  'chown',
+  'fchown',
+  'lchown',
+  'chmod',
+  'fchmod',
+  'stat',
+  'lstat',
+  'fstat',
+  'link',
+  'symlink',
+  'readlink',
+  'realpath',
+  'unlink',
+  'rmdir',
+  'mkdir',
+  'readdir',
+  'close',
+  'open',
+  'utimes',
+  'futimes',
+  'fsync',
+  'write',
+  'read',
+  'readFile',
+  'writeFile',
+  'appendFile',
+
+  'copy',
+  'ensureFile',
+  'ensureDir',
+  'mkdirs',
+  'move',
+  'outputFile',
+  'outputJson',
+  'readJson',
+  'remove',
+  'writeJson'
+];

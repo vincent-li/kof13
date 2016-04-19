@@ -7,39 +7,37 @@ KOF(拳皇)系列对于很多朋友都很熟悉，最经典的97，是很多游�
 ## Install
 ```sh
   $ git clone git://github.com/vincent-li/kof13
-  $ node server.js
+  $ npm install 
+  $ node -harmony server
 ```
 
 **NOTE:** your config files is in folder `config/..`
 
-Then visit [http://localhost:3000/](http://localhost:3000/)
+Then visit [http://localhost:3030/](http://localhost:3030/)
 
 ## Directory structure
 ```
--app/
-  |__actions/
-  |__models/
-  |__controllers/
--config/
-  |__routes.js
-  |__environment.js
-  |__database.json
-  |__environments/
--db/
-  |__schema.js
--log/
--webapp/
+-src/
+  |__functions/
+  |__app.js
+  |__action.js
+  |__model.js
+  |__config.js
+-static/
   |__app/
   |__gmres/
   |__css/
   |__images/
   |__libs/
-  |__index.html
   |__index.js
-  |__gamehall.html
   |__gamehall.js
-  |__game.html
   |__main.js
+-views
+  |__index.html
+  |__game.html
+  |__behavior.html
+  |__aboutus.html
+  
 -server.js
 ```
 
